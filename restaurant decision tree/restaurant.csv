@@ -1,0 +1,13 @@
+alternate,bar,fri/sat,hungary,patrons,price,raining,reservation,type,waitestimate,out
+Yes,No,No,Yes,some,3,No,Yes,french,0-10,1
+Yes,No,No,Yes,full,1,No,No,thai,30-60,0
+No,Yes,No,No,some,1,No,No,burger,0-10,1
+Yes,No,Yes,Yes,full,1,Yes,No,thai,>60,1
+Yes,No,Yes,No,full,3,No,Yes,french,>60,0
+No,Yes,No,Yes,some,2,Yes,Yes,italian,0-10,1
+No,Yes,No,No,none,1,Yes,No,burger,0-10,0
+No,No,No,Yes,some,2,Yes,Yes,thai,0-10,1
+No,Yes,Yes,No,full,1,Yes,No,burger,>60,0
+Yes,Yes,Yes,Yes,full,3,No,Yes,italian,>60,0
+No,No,No,No,none,1,No,No,thai,0-10,0
+Yes,Yes,Yes,Yes,full,1,No,No,burger,30-60,1

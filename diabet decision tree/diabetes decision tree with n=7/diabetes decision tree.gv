@@ -1,0 +1,1752 @@
+// The Round Table
+digraph "diabetes decision tree" {
+	b [label="Pregnancies
+B(p) =0.981
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> b [label="142.14-170.57" fontcolor=darkblue fontsize=10]
+	c [label="Pregnancies
+B(p) =0.27
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> c [label="56.86-85.29" fontcolor=darkblue fontsize=10]
+	d [label="Age
+B(p) =0.643
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> d [label="170.57-199.0" fontcolor=darkblue fontsize=10]
+	e [label="BMI
+B(p) =0.704
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> e [label="85.29-113.71" fontcolor=darkblue fontsize=10]
+	f [label="BMI
+B(p) =0.954
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> f [label="113.71-142.14" fontcolor=darkblue fontsize=10]
+	g [label="No
+B(p) =0
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> g [label="28.43-56.86" fontcolor=darkblue fontsize=10]
+	h [label="Pregnancies
+B(p) =0.971
+G(A) =0.164"]
+	a [label="Glucose
+B(p) =0.931
+G(A) =0"]
+	a -> h [label="0.0-28.43" fontcolor=darkblue fontsize=10]
+	i [label="Age
+B(p) =1.0
+G(A) =0.164"]
+	b -> i [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	j [label="Yes
+B(p) =0
+G(A) =0.164"]
+	b -> j [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	k [label="BloodPressure
+B(p) =1.0
+G(A) =0.164"]
+	b -> k [label="12.14-14.57" fontcolor=darkblue fontsize=10]
+	l [label="DiabetesPedigreeFunction
+B(p) =0.982
+G(A) =0.164"]
+	b -> l [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	m [label="BloodPressure
+B(p) =0.983
+G(A) =0.164"]
+	b -> m [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	n [label="Yes
+B(p) =0
+G(A) =0.164"]
+	b -> n [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	o [label="Yes
+B(p) =0
+G(A) =0.164"]
+	b -> o [label="14.57-17.0" fontcolor=darkblue fontsize=10]
+	p [label="No
+B(p) =0
+G(A) =0.08"]
+	c -> p [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	q [label="BloodPressure
+B(p) =0.391
+G(A) =0.08"]
+	c -> q [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	r [label="DiabetesPedigreeFunction
+B(p) =0.503
+G(A) =0.08"]
+	c -> r [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	s [label="No
+B(p) =0
+G(A) =0.08"]
+	c -> s [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	t [label="SkinThickness
+B(p) =0.918
+G(A) =0.08"]
+	c -> t [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	u [label="No
+B(p) =0
+G(A) =0.08"]
+	c -> u [label="12.14-14.57" fontcolor=darkblue fontsize=10]
+	v [label="Pregnancies
+B(p) =0.89
+G(A) =0.153"]
+	d -> v [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	w [label="Yes
+B(p) =0
+G(A) =0.153"]
+	d -> w [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	x [label="DiabetesPedigreeFunction
+B(p) =0.811
+G(A) =0.153"]
+	d -> x [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	y [label="Yes
+B(p) =0
+G(A) =0.153"]
+	d -> y [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	z [label="SkinThickness
+B(p) =0.523
+G(A) =0.153"]
+	d -> z [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"{" [label="No
+B(p) =0
+G(A) =0.153"]
+	d -> "{" [label="63.86-72.43" fontcolor=darkblue fontsize=10]
+	"|" [label="Age
+B(p) =0.388
+G(A) =0.065"]
+	e -> "|" [label="19.17-28.76" fontcolor=darkblue fontsize=10]
+	"}" [label="Age
+B(p) =0.853
+G(A) =0.065"]
+	e -> "}" [label="28.76-38.34" fontcolor=darkblue fontsize=10]
+	"~" [label="Pregnancies
+B(p) =0.779
+G(A) =0.065"]
+	e -> "~" [label="38.34-47.93" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.065"]
+	e -> "" [label="0.0-9.59" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.065"]
+	e -> "" [label="47.93-57.51" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.065"]
+	e -> "" [label="9.59-19.17" fontcolor=darkblue fontsize=10]
+	"" [label="Age
+B(p) =0.997
+G(A) =0.15"]
+	f -> "" [label="38.34-47.93" fontcolor=darkblue fontsize=10]
+	"" [label="Insulin
+B(p) =0.514
+G(A) =0.15"]
+	f -> "" [label="19.17-28.76" fontcolor=darkblue fontsize=10]
+	"" [label="DiabetesPedigreeFunction
+B(p) =0.998
+G(A) =0.15"]
+	f -> "" [label="28.76-38.34" fontcolor=darkblue fontsize=10]
+	"" [label="Pregnancies
+B(p) =0.918
+G(A) =0.15"]
+	f -> "" [label="0.0-9.59" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.15"]
+	f -> "" [label="47.93-57.51" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.15"]
+	f -> "" [label="57.51-67.1" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.971"]
+	h -> "" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.971"]
+	h -> "" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"" [label="BMI
+B(p) =0.722
+G(A) =0.162"]
+	i -> "" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"" [label="BMI
+B(p) =0.985
+G(A) =0.162"]
+	i -> "" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.162"]
+	i -> "" [label="63.86-72.43" fontcolor=darkblue fontsize=10]
+	"" [label="BloodPressure
+B(p) =0.918
+G(A) =0.162"]
+	i -> "" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"" [label="BMI
+B(p) =0.971
+G(A) =0.162"]
+	i -> "" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"" [label="SkinThickness
+B(p) =1.0
+G(A) =0.162"]
+	i -> "" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =1.0"]
+	k -> "" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	k -> "" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.324"]
+	l -> "" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"" [label="BMI
+B(p) =0.961
+G(A) =0.324"]
+	l -> "" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.324"]
+	l -> "" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"" [label="SkinThickness
+B(p) =0.918
+G(A) =0.22"]
+	m -> "" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"" [label="DiabetesPedigreeFunction
+B(p) =0.896
+G(A) =0.22"]
+	m -> "" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"" [label="SkinThickness
+B(p) =0.918
+G(A) =0.22"]
+	m -> "" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.22"]
+	m -> "" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.22"]
+	m -> "" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"" [label="Yes
+B(p) =0
+G(A) =0.391"]
+	q -> "" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.391"]
+	q -> "" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.391"]
+	q -> "" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.391"]
+	q -> "" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.391"]
+	q -> "" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"" [label="No
+B(p) =0
+G(A) =0.503"]
+	r -> "" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	" " [label="No
+B(p) =0
+G(A) =0.503"]
+	r -> " " [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"¡" [label="Yes
+B(p) =0
+G(A) =0.503"]
+	r -> "¡" [label="1.08-1.42" fontcolor=darkblue fontsize=10]
+	"¢" [label="No
+B(p) =0
+G(A) =0.918"]
+	t -> "¢" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"£" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	t -> "£" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"¤" [label="Yes
+B(p) =0
+G(A) =0.517"]
+	v -> "¤" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"¥" [label="Insulin
+B(p) =0.971
+G(A) =0.517"]
+	v -> "¥" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"¦" [label="No
+B(p) =0
+G(A) =0.517"]
+	v -> "¦" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"§" [label="Yes
+B(p) =0
+G(A) =0.517"]
+	v -> "§" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"¨" [label="Yes
+B(p) =0
+G(A) =0.517"]
+	v -> "¨" [label="12.14-14.57" fontcolor=darkblue fontsize=10]
+	"©" [label="Pregnancies
+B(p) =0.811
+G(A) =0.406"]
+	x -> "©" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ª" [label="Yes
+B(p) =0
+G(A) =0.406"]
+	x -> "ª" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"«" [label="No
+B(p) =0
+G(A) =0.406"]
+	x -> "«" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"¬" [label="BloodPressure
+B(p) =0.918
+G(A) =0.361"]
+	z -> "¬" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"­" [label="Yes
+B(p) =0
+G(A) =0.361"]
+	z -> "­" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"®" [label="Yes
+B(p) =0
+G(A) =0.361"]
+	z -> "®" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"¯" [label="Yes
+B(p) =0
+G(A) =0.361"]
+	z -> "¯" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"°" [label="Yes
+B(p) =0
+G(A) =0.361"]
+	z -> "°" [label="56.57-70.71" fontcolor=darkblue fontsize=10]
+	"±" [label="Pregnancies
+B(p) =0.219
+G(A) =0.064"]
+	"|" -> "±" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"²" [label="Pregnancies
+B(p) =0.391
+G(A) =0.064"]
+	"|" -> "²" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"³" [label="Pregnancies
+B(p) =1.0
+G(A) =0.064"]
+	"|" -> "³" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"´" [label="Pregnancies
+B(p) =0.811
+G(A) =0.064"]
+	"|" -> "´" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"µ" [label="Insulin
+B(p) =0.918
+G(A) =0.064"]
+	"|" -> "µ" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"¶" [label="DiabetesPedigreeFunction
+B(p) =0.949
+G(A) =0.052"]
+	"}" -> "¶" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"·" [label="No
+B(p) =0
+G(A) =0.052"]
+	"}" -> "·" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"¸" [label="Pregnancies
+B(p) =1.0
+G(A) =0.052"]
+	"}" -> "¸" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"¹" [label="BloodPressure
+B(p) =0.977
+G(A) =0.052"]
+	"}" -> "¹" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"º" [label="SkinThickness
+B(p) =0.737
+G(A) =0.052"]
+	"}" -> "º" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"»" [label="BloodPressure
+B(p) =0.353
+G(A) =0.258"]
+	"~" -> "»" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"¼" [label="BloodPressure
+B(p) =0.918
+G(A) =0.258"]
+	"~" -> "¼" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"½" [label="BloodPressure
+B(p) =0.918
+G(A) =0.258"]
+	"~" -> "½" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"¾" [label="No
+B(p) =0
+G(A) =0.258"]
+	"~" -> "¾" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"¿" [label="SkinThickness
+B(p) =0.918
+G(A) =0.258"]
+	"~" -> "¿" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"À" [label="Pregnancies
+B(p) =0.918
+G(A) =0.191"]
+	"" -> "À" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"Á" [label="BloodPressure
+B(p) =0.982
+G(A) =0.191"]
+	"" -> "Á" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"Â" [label="Yes
+B(p) =0
+G(A) =0.191"]
+	"" -> "Â" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"Ã" [label="No
+B(p) =0
+G(A) =0.191"]
+	"" -> "Ã" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"Ä" [label="Yes
+B(p) =0
+G(A) =0.191"]
+	"" -> "Ä" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"Å" [label="Pregnancies
+B(p) =0.496
+G(A) =0.061"]
+	"" -> "Å" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Æ" [label="BloodPressure
+B(p) =0.439
+G(A) =0.061"]
+	"" -> "Æ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"Ç" [label="No
+B(p) =0
+G(A) =0.061"]
+	"" -> "Ç" [label="362.57-483.43" fontcolor=darkblue fontsize=10]
+	"È" [label="No
+B(p) =0
+G(A) =0.061"]
+	"" -> "È" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"É" [label="Yes
+B(p) =0
+G(A) =0.061"]
+	"" -> "É" [label="483.43-604.29" fontcolor=darkblue fontsize=10]
+	"Ê" [label="Age
+B(p) =0.956
+G(A) =0.09"]
+	"" -> "Ê" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ë" [label="BloodPressure
+B(p) =0.991
+G(A) =0.09"]
+	"" -> "Ë" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"Ì" [label="BloodPressure
+B(p) =0.592
+G(A) =0.09"]
+	"" -> "Ì" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"Í" [label="Yes
+B(p) =0
+G(A) =0.09"]
+	"" -> "Í" [label="1.08-1.42" fontcolor=darkblue fontsize=10]
+	"Î" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"" -> "Î" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"Ï" [label="No
+B(p) =0
+G(A) =0.918"]
+	"" -> "Ï" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ð" [label="No
+B(p) =0
+G(A) =0.918"]
+	"" -> "Ð" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ñ" [label="Yes
+B(p) =0
+G(A) =0.722"]
+	"" -> "Ñ" [label="28.76-38.34" fontcolor=darkblue fontsize=10]
+	"Ò" [label="Yes
+B(p) =0
+G(A) =0.722"]
+	"" -> "Ò" [label="19.17-28.76" fontcolor=darkblue fontsize=10]
+	"Ó" [label="No
+B(p) =0
+G(A) =0.722"]
+	"" -> "Ó" [label="38.34-47.93" fontcolor=darkblue fontsize=10]
+	"Ô" [label="Yes
+B(p) =0
+G(A) =0.292"]
+	"" -> "Ô" [label="38.34-47.93" fontcolor=darkblue fontsize=10]
+	"Õ" [label="No
+B(p) =0
+G(A) =0.292"]
+	"" -> "Õ" [label="19.17-28.76" fontcolor=darkblue fontsize=10]
+	"Ö" [label="BloodPressure
+B(p) =0.971
+G(A) =0.292"]
+	"" -> "Ö" [label="28.76-38.34" fontcolor=darkblue fontsize=10]
+	"×" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"" -> "×" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ø" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"" -> "Ø" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ù" [label="No
+B(p) =0
+G(A) =0.918"]
+	"" -> "Ù" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ú" [label="DiabetesPedigreeFunction
+B(p) =0.918
+G(A) =0.42"]
+	"" -> "Ú" [label="38.34-47.93" fontcolor=darkblue fontsize=10]
+	"Û" [label="No
+B(p) =0
+G(A) =0.42"]
+	"" -> "Û" [label="28.76-38.34" fontcolor=darkblue fontsize=10]
+	"Ü" [label="No
+B(p) =0
+G(A) =1.0"]
+	"" -> "Ü" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ý" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"" -> "Ý" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Þ" [label="BloodPressure
+B(p) =0.946
+G(A) =0.161"]
+	"" -> "Þ" [label="28.76-38.34" fontcolor=darkblue fontsize=10]
+	"ß" [label="No
+B(p) =0
+G(A) =0.161"]
+	"" -> "ß" [label="19.17-28.76" fontcolor=darkblue fontsize=10]
+	"à" [label="Yes
+B(p) =0
+G(A) =0.161"]
+	"" -> "à" [label="47.93-57.51" fontcolor=darkblue fontsize=10]
+	"á" [label="No
+B(p) =0
+G(A) =0.918"]
+	"" -> "á" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"â" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"" -> "â" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ã" [label="No
+B(p) =0
+G(A) =0.207"]
+	"" -> "ã" [label="1.42-1.75" fontcolor=darkblue fontsize=10]
+	"ä" [label="Yes
+B(p) =0
+G(A) =0.207"]
+	"" -> "ä" [label="1.08-1.42" fontcolor=darkblue fontsize=10]
+	"å" [label="SkinThickness
+B(p) =0.918
+G(A) =0.207"]
+	"" -> "å" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"æ" [label="SkinThickness
+B(p) =0.918
+G(A) =0.207"]
+	"" -> "æ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ç" [label="No
+B(p) =0
+G(A) =0.207"]
+	"" -> "ç" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"è" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"" -> "è" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"é" [label="No
+B(p) =0
+G(A) =0.918"]
+	"" -> "é" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ê" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"" -> "ê" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"ë" [label="BloodPressure
+B(p) =1.0
+G(A) =0.571"]
+	"¥" -> "ë" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ì" [label="No
+B(p) =0
+G(A) =0.571"]
+	"¥" -> "ì" [label="725.14-846.0" fontcolor=darkblue fontsize=10]
+	"í" [label="Yes
+B(p) =0
+G(A) =0.571"]
+	"¥" -> "í" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"î" [label="No
+B(p) =0
+G(A) =0.571"]
+	"¥" -> "î" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ï" [label="Yes
+B(p) =0
+G(A) =0.311"]
+	"©" -> "ï" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ð" [label="Yes
+B(p) =0
+G(A) =0.311"]
+	"©" -> "ð" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"ñ" [label="BloodPressure
+B(p) =1.0
+G(A) =0.311"]
+	"©" -> "ñ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ò" [label="No
+B(p) =0
+G(A) =0.918"]
+	"¬" -> "ò" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ó" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"¬" -> "ó" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"ô" [label="No
+B(p) =0
+G(A) =0.918"]
+	"¬" -> "ô" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"õ" [label="No
+B(p) =0
+G(A) =0.064"]
+	"±" -> "õ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ö" [label="DiabetesPedigreeFunction
+B(p) =0.414
+G(A) =0.064"]
+	"±" -> "ö" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"÷" [label="BloodPressure
+B(p) =0.65
+G(A) =0.064"]
+	"±" -> "÷" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ø" [label="No
+B(p) =0
+G(A) =0.391"]
+	"²" -> "ø" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ù" [label="No
+B(p) =0
+G(A) =0.391"]
+	"²" -> "ù" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ú" [label="Yes
+B(p) =0
+G(A) =0.391"]
+	"²" -> "ú" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"û" [label="No
+B(p) =0
+G(A) =0.391"]
+	"²" -> "û" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ü" [label="No
+B(p) =0
+G(A) =1.0"]
+	"³" -> "ü" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ý" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"³" -> "ý" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"þ" [label="Yes
+B(p) =0
+G(A) =0.811"]
+	"´" -> "þ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ÿ" [label="No
+B(p) =0
+G(A) =0.811"]
+	"´" -> "ÿ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"Ā" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"µ" -> "Ā" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"ā" [label="No
+B(p) =0
+G(A) =0.918"]
+	"µ" -> "ā" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ă" [label="SkinThickness
+B(p) =0.961
+G(A) =0.292"]
+	"¶" -> "Ă" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ă" [label="Yes
+B(p) =0
+G(A) =0.292"]
+	"¶" -> "ă" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"Ą" [label="No
+B(p) =0
+G(A) =0.292"]
+	"¶" -> "Ą" [label="1.08-1.42" fontcolor=darkblue fontsize=10]
+	"ą" [label="No
+B(p) =0
+G(A) =0.292"]
+	"¶" -> "ą" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"Ć" [label="No
+B(p) =0
+G(A) =1.0"]
+	"¸" -> "Ć" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ć" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"¸" -> "ć" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"Ĉ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"¸" -> "Ĉ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"ĉ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"¸" -> "ĉ" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"Ċ" [label="Insulin
+B(p) =0.991
+G(A) =0.167"]
+	"¹" -> "Ċ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ċ" [label="SkinThickness
+B(p) =0.971
+G(A) =0.167"]
+	"¹" -> "ċ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Č" [label="No
+B(p) =0
+G(A) =0.167"]
+	"¹" -> "Č" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"č" [label="No
+B(p) =0
+G(A) =0.167"]
+	"¹" -> "č" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ď" [label="BloodPressure
+B(p) =0.795
+G(A) =0.065"]
+	"º" -> "Ď" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ď" [label="DiabetesPedigreeFunction
+B(p) =0.469
+G(A) =0.065"]
+	"º" -> "ď" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Đ" [label="Pregnancies
+B(p) =0.722
+G(A) =0.065"]
+	"º" -> "Đ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"đ" [label="DiabetesPedigreeFunction
+B(p) =0.918
+G(A) =0.065"]
+	"º" -> "đ" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"Ē" [label="No
+B(p) =0
+G(A) =0.093"]
+	"»" -> "Ē" [label="17.43-34.86" fontcolor=darkblue fontsize=10]
+	"ē" [label="No
+B(p) =0
+G(A) =0.093"]
+	"»" -> "ē" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ĕ" [label="No
+B(p) =0
+G(A) =0.093"]
+	"»" -> "Ĕ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ĕ" [label="SkinThickness
+B(p) =0.65
+G(A) =0.093"]
+	"»" -> "ĕ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ė" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"¼" -> "Ė" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ė" [label="No
+B(p) =0
+G(A) =0.918"]
+	"¼" -> "ė" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ę" [label="No
+B(p) =0
+G(A) =0.918"]
+	"¼" -> "Ę" [label="104.57-122.0" fontcolor=darkblue fontsize=10]
+	"ę" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"½" -> "ę" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ě" [label="No
+B(p) =0
+G(A) =0.918"]
+	"½" -> "Ě" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ě" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"¿" -> "ě" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ĝ" [label="No
+B(p) =0
+G(A) =0.918"]
+	"¿" -> "Ĝ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ĝ" [label="Yes
+B(p) =0
+G(A) =0.585"]
+	"À" -> "ĝ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ğ" [label="DiabetesPedigreeFunction
+B(p) =1.0
+G(A) =0.585"]
+	"À" -> "Ğ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ğ" [label="No
+B(p) =0
+G(A) =0.585"]
+	"À" -> "ğ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"Ġ" [label="No
+B(p) =0
+G(A) =0.258"]
+	"Á" -> "Ġ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"ġ" [label="Yes
+B(p) =0
+G(A) =0.258"]
+	"Á" -> "ġ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"Ģ" [label="DiabetesPedigreeFunction
+B(p) =0.985
+G(A) =0.258"]
+	"Á" -> "Ģ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ģ" [label="Insulin
+B(p) =0.971
+G(A) =0.258"]
+	"Á" -> "ģ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ĥ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.258"]
+	"Á" -> "Ĥ" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"ĥ" [label="Age
+B(p) =0.544
+G(A) =0.08"]
+	"Å" -> "ĥ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ħ" [label="No
+B(p) =0
+G(A) =0.08"]
+	"Å" -> "Ħ" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"ħ" [label="Age
+B(p) =0.845
+G(A) =0.08"]
+	"Å" -> "ħ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"Ĩ" [label="Age
+B(p) =0.323
+G(A) =0.08"]
+	"Å" -> "Ĩ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ĩ" [label="No
+B(p) =0
+G(A) =0.08"]
+	"Å" -> "ĩ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"Ī" [label="No
+B(p) =0
+G(A) =0.439"]
+	"Æ" -> "Ī" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ī" [label="Yes
+B(p) =0
+G(A) =0.439"]
+	"Æ" -> "ī" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"Ĭ" [label="No
+B(p) =0
+G(A) =0.439"]
+	"Æ" -> "Ĭ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ĭ" [label="Pregnancies
+B(p) =0.702
+G(A) =0.133"]
+	"Ê" -> "ĭ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"Į" [label="Pregnancies
+B(p) =0.89
+G(A) =0.133"]
+	"Ê" -> "Į" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"į" [label="BloodPressure
+B(p) =0.971
+G(A) =0.133"]
+	"Ê" -> "į" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"İ" [label="No
+B(p) =0
+G(A) =0.133"]
+	"Ê" -> "İ" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"ı" [label="BloodPressure
+B(p) =0.918
+G(A) =0.133"]
+	"Ê" -> "ı" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"Ĳ" [label="SkinThickness
+B(p) =0.971
+G(A) =0.182"]
+	"Ë" -> "Ĳ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ĳ" [label="Yes
+B(p) =0
+G(A) =0.182"]
+	"Ë" -> "ĳ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ĵ" [label="SkinThickness
+B(p) =0.971
+G(A) =0.182"]
+	"Ë" -> "Ĵ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ĵ" [label="Yes
+B(p) =0
+G(A) =0.182"]
+	"Ë" -> "ĵ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"Ķ" [label="No
+B(p) =0
+G(A) =0.182"]
+	"Ë" -> "Ķ" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"ķ" [label="Yes
+B(p) =0
+G(A) =0.306"]
+	"Ì" -> "ķ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ĸ" [label="Age
+B(p) =1.0
+G(A) =0.306"]
+	"Ì" -> "ĸ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"Ĺ" [label="Yes
+B(p) =0
+G(A) =0.306"]
+	"Ì" -> "Ĺ" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"ĺ" [label="Yes
+B(p) =0
+G(A) =0.306"]
+	"Ì" -> "ĺ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ļ" [label="Yes
+B(p) =0
+G(A) =0.306"]
+	"Ì" -> "Ļ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"ļ" [label="Insulin
+B(p) =0.918
+G(A) =0.42"]
+	"Ö" -> "ļ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ľ" [label="No
+B(p) =0
+G(A) =0.42"]
+	"Ö" -> "Ľ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ľ" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"Ú" -> "ľ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ŀ" [label="No
+B(p) =0
+G(A) =0.918"]
+	"Ú" -> "Ŀ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"ŀ" [label="Insulin
+B(p) =0.971
+G(A) =0.063"]
+	"Þ" -> "ŀ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ł" [label="Insulin
+B(p) =0.971
+G(A) =0.063"]
+	"Þ" -> "Ł" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ł" [label="No
+B(p) =0
+G(A) =0.063"]
+	"Þ" -> "ł" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ń" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"å" -> "Ń" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"ń" [label="No
+B(p) =0
+G(A) =0.918"]
+	"å" -> "ń" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ņ" [label="No
+B(p) =0
+G(A) =0.39"]
+	"æ" -> "Ņ" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"ņ" [label="Insulin
+B(p) =1.0
+G(A) =0.39"]
+	"æ" -> "ņ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ň" [label="Yes
+B(p) =0
+G(A) =0.39"]
+	"æ" -> "Ň" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ň" [label="Insulin
+B(p) =0.918
+G(A) =0.39"]
+	"æ" -> "ň" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ŉ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ë" -> "ŉ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ŋ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ë" -> "Ŋ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ŋ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ñ" -> "ŋ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ō" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ñ" -> "Ō" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ō" [label="No
+B(p) =0
+G(A) =0.414"]
+	"ö" -> "ō" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ŏ" [label="Yes
+B(p) =0
+G(A) =0.414"]
+	"ö" -> "Ŏ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"ŏ" [label="No
+B(p) =0
+G(A) =0.191"]
+	"÷" -> "ŏ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ő" [label="No
+B(p) =0
+G(A) =0.191"]
+	"÷" -> "Ő" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"ő" [label="No
+B(p) =0
+G(A) =0.191"]
+	"÷" -> "ő" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Œ" [label="SkinThickness
+B(p) =0.918
+G(A) =0.191"]
+	"÷" -> "Œ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"œ" [label="BloodPressure
+B(p) =0.918
+G(A) =0.288"]
+	"Ă" -> "œ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ŕ" [label="No
+B(p) =0
+G(A) =0.288"]
+	"Ă" -> "Ŕ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ŕ" [label="Pregnancies
+B(p) =0.811
+G(A) =0.288"]
+	"Ă" -> "ŕ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ŗ" [label="No
+B(p) =0
+G(A) =0.288"]
+	"Ă" -> "Ŗ" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"ŗ" [label="DiabetesPedigreeFunction
+B(p) =0.918
+G(A) =0.379"]
+	"Ċ" -> "ŗ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ř" [label="Yes
+B(p) =0
+G(A) =0.379"]
+	"Ċ" -> "Ř" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ř" [label="Yes
+B(p) =0
+G(A) =0.971"]
+	"ċ" -> "ř" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ś" [label="No
+B(p) =0
+G(A) =0.971"]
+	"ċ" -> "Ś" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ś" [label="No
+B(p) =0
+G(A) =0.971"]
+	"ċ" -> "ś" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ŝ" [label="DiabetesPedigreeFunction
+B(p) =0.98
+G(A) =0.126"]
+	"Ď" -> "Ŝ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ŝ" [label="Pregnancies
+B(p) =0.414
+G(A) =0.126"]
+	"Ď" -> "ŝ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ş" [label="No
+B(p) =0
+G(A) =0.126"]
+	"Ď" -> "Ş" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"ş" [label="Pregnancies
+B(p) =0.918
+G(A) =0.066"]
+	"ď" -> "ş" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"Š" [label="BloodPressure
+B(p) =0.353
+G(A) =0.066"]
+	"ď" -> "Š" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"š" [label="No
+B(p) =0
+G(A) =0.066"]
+	"ď" -> "š" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"Ţ" [label="DiabetesPedigreeFunction
+B(p) =0.918
+G(A) =0.171"]
+	"Đ" -> "Ţ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ţ" [label="No
+B(p) =0
+G(A) =0.171"]
+	"Đ" -> "ţ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"Ť" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"đ" -> "Ť" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"ť" [label="No
+B(p) =0
+G(A) =0.918"]
+	"đ" -> "ť" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ŧ" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"đ" -> "Ŧ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"ŧ" [label="No
+B(p) =0
+G(A) =0.191"]
+	"ĕ" -> "ŧ" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"Ũ" [label="Insulin
+B(p) =0.918
+G(A) =0.191"]
+	"ĕ" -> "Ũ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ũ" [label="No
+B(p) =0
+G(A) =0.191"]
+	"ĕ" -> "ũ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ū" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ğ" -> "Ū" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"ū" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ğ" -> "ū" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"Ŭ" [label="No
+B(p) =0
+G(A) =0.985"]
+	"Ģ" -> "Ŭ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ŭ" [label="Yes
+B(p) =0
+G(A) =0.985"]
+	"Ģ" -> "ŭ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"Ů" [label="Yes
+B(p) =0
+G(A) =0.971"]
+	"ģ" -> "Ů" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ů" [label="No
+B(p) =0
+G(A) =0.971"]
+	"ģ" -> "ů" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ű" [label="Yes
+B(p) =0
+G(A) =0.971"]
+	"ģ" -> "Ű" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"ű" [label="No
+B(p) =0
+G(A) =0.971"]
+	"ģ" -> "ű" [label="362.57-483.43" fontcolor=darkblue fontsize=10]
+	"Ų" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ĥ" -> "Ų" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"ų" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ĥ" -> "ų" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ŵ" [label="No
+B(p) =0
+G(A) =0.544"]
+	"ĥ" -> "Ŵ" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"ŵ" [label="No
+B(p) =0
+G(A) =0.544"]
+	"ĥ" -> "ŵ" [label="63.86-72.43" fontcolor=darkblue fontsize=10]
+	"Ŷ" [label="No
+B(p) =0
+G(A) =0.544"]
+	"ĥ" -> "Ŷ" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"ŷ" [label="Yes
+B(p) =0
+G(A) =0.544"]
+	"ĥ" -> "ŷ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"Ÿ" [label="No
+B(p) =0
+G(A) =0.544"]
+	"ĥ" -> "Ÿ" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"Ź" [label="SkinThickness
+B(p) =1.0
+G(A) =0.3"]
+	"ħ" -> "Ź" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"ź" [label="No
+B(p) =0
+G(A) =0.3"]
+	"ħ" -> "ź" [label="46.71-55.29" fontcolor=darkblue fontsize=10]
+	"Ż" [label="No
+B(p) =0
+G(A) =0.3"]
+	"ħ" -> "Ż" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"ż" [label="No
+B(p) =0
+G(A) =0.3"]
+	"ħ" -> "ż" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"Ž" [label="BloodPressure
+B(p) =1.0
+G(A) =0.3"]
+	"ħ" -> "Ž" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"ž" [label="No
+B(p) =0
+G(A) =0.323"]
+	"Ĩ" -> "ž" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"ſ" [label="Yes
+B(p) =0
+G(A) =0.323"]
+	"Ĩ" -> "ſ" [label="29.57-38.14" fontcolor=darkblue fontsize=10]
+	"ƀ" [label="No
+B(p) =0
+G(A) =0.323"]
+	"Ĩ" -> "ƀ" [label="63.86-72.43" fontcolor=darkblue fontsize=10]
+	"Ɓ" [label="No
+B(p) =0
+G(A) =0.323"]
+	"Ĩ" -> "Ɓ" [label="55.29-63.86" fontcolor=darkblue fontsize=10]
+	"Ƃ" [label="No
+B(p) =0
+G(A) =0.271"]
+	"ĭ" -> "Ƃ" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"ƃ" [label="Yes
+B(p) =0
+G(A) =0.271"]
+	"ĭ" -> "ƃ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"Ƅ" [label="BloodPressure
+B(p) =0.503
+G(A) =0.271"]
+	"ĭ" -> "Ƅ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ƅ" [label="BloodPressure
+B(p) =0.503
+G(A) =0.271"]
+	"ĭ" -> "ƅ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ɔ" [label="Yes
+B(p) =0
+G(A) =0.271"]
+	"ĭ" -> "Ɔ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ƈ" [label="SkinThickness
+B(p) =0.811
+G(A) =0.487"]
+	"Į" -> "Ƈ" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"ƈ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.487"]
+	"Į" -> "ƈ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"Ɖ" [label="Yes
+B(p) =0
+G(A) =0.487"]
+	"Į" -> "Ɖ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ɗ" [label="Yes
+B(p) =0
+G(A) =0.487"]
+	"Į" -> "Ɗ" [label="14.57-17.0" fontcolor=darkblue fontsize=10]
+	"Ƌ" [label="Yes
+B(p) =0
+G(A) =0.487"]
+	"Į" -> "Ƌ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ƌ" [label="Yes
+B(p) =0
+G(A) =0.487"]
+	"Į" -> "ƌ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ƍ" [label="No
+B(p) =0
+G(A) =0.245"]
+	"į" -> "ƍ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ǝ" [label="Pregnancies
+B(p) =0.863
+G(A) =0.245"]
+	"į" -> "Ǝ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ə" [label="Pregnancies
+B(p) =0.971
+G(A) =0.245"]
+	"į" -> "Ə" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ɛ" [label="Yes
+B(p) =0
+G(A) =0.245"]
+	"į" -> "Ɛ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"Ƒ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"ı" -> "Ƒ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"ƒ" [label="Pregnancies
+B(p) =1.0
+G(A) =0.252"]
+	"ı" -> "ƒ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ɠ" [label="Insulin
+B(p) =1.0
+G(A) =0.295"]
+	"Ĳ" -> "Ɠ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ɣ" [label="Pregnancies
+B(p) =0.918
+G(A) =0.295"]
+	"Ĳ" -> "Ɣ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ƕ" [label="Yes
+B(p) =0
+G(A) =0.295"]
+	"Ĳ" -> "ƕ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ɩ" [label="No
+B(p) =0
+G(A) =0.295"]
+	"Ĳ" -> "Ɩ" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"Ɨ" [label="No
+B(p) =0
+G(A) =0.971"]
+	"Ĵ" -> "Ɨ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ƙ" [label="No
+B(p) =0
+G(A) =0.971"]
+	"Ĵ" -> "Ƙ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ƙ" [label="Yes
+B(p) =0
+G(A) =0.971"]
+	"Ĵ" -> "ƙ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ƚ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ĸ" -> "ƚ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"ƛ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ĸ" -> "ƛ" [label="38.14-46.71" fontcolor=darkblue fontsize=10]
+	"Ɯ" [label="No
+B(p) =0
+G(A) =0.918"]
+	"ļ" -> "Ɯ" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"Ɲ" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"ļ" -> "Ɲ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ƞ" [label="Yes
+B(p) =0
+G(A) =0.918"]
+	"ļ" -> "ƞ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ɵ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.171"]
+	"ŀ" -> "Ɵ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ơ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.171"]
+	"ŀ" -> "Ơ" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"ơ" [label="No
+B(p) =0
+G(A) =0.171"]
+	"ŀ" -> "ơ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"Ƣ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.171"]
+	"Ł" -> "Ƣ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ƣ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.171"]
+	"Ł" -> "ƣ" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"Ƥ" [label="No
+B(p) =0
+G(A) =0.171"]
+	"Ł" -> "Ƥ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ƥ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ņ" -> "ƥ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"Ʀ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ņ" -> "Ʀ" [label="241.71-362.57" fontcolor=darkblue fontsize=10]
+	"Ƨ" [label="BMI
+B(p) =1.0
+G(A) =0.252"]
+	"ň" -> "Ƨ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ƨ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"ň" -> "ƨ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"Ʃ" [label="Insulin
+B(p) =1.0
+G(A) =0.252"]
+	"Œ" -> "Ʃ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ƪ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"Œ" -> "ƪ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ƫ" [label="No
+B(p) =0
+G(A) =0.585"]
+	"œ" -> "ƫ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ƭ" [label="Pregnancies
+B(p) =1.0
+G(A) =0.585"]
+	"œ" -> "Ƭ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"ƭ" [label="Yes
+B(p) =0
+G(A) =0.585"]
+	"œ" -> "ƭ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ʈ" [label="Yes
+B(p) =0
+G(A) =0.585"]
+	"œ" -> "Ʈ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ư" [label="Yes
+B(p) =0
+G(A) =0.811"]
+	"ŕ" -> "Ư" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"ư" [label="No
+B(p) =0
+G(A) =0.811"]
+	"ŕ" -> "ư" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ʊ" [label="No
+B(p) =0
+G(A) =0.811"]
+	"ŕ" -> "Ʊ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"Ʋ" [label="No
+B(p) =0
+G(A) =0.811"]
+	"ŕ" -> "Ʋ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ƴ" [label="Yes
+B(p) =0
+G(A) =0.585"]
+	"ŗ" -> "Ƴ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"ƴ" [label="No
+B(p) =0
+G(A) =0.585"]
+	"ŗ" -> "ƴ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ƶ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.585"]
+	"ŗ" -> "Ƶ" [label="0.75-1.08" fontcolor=darkblue fontsize=10]
+	"ƶ" [label="Pregnancies
+B(p) =0.811
+G(A) =0.169"]
+	"Ŝ" -> "ƶ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ʒ" [label="Pregnancies
+B(p) =0.811
+G(A) =0.169"]
+	"Ŝ" -> "Ʒ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"Ƹ" [label="No
+B(p) =0
+G(A) =0.184"]
+	"ŝ" -> "Ƹ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ƹ" [label="No
+B(p) =0
+G(A) =0.184"]
+	"ŝ" -> "ƹ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ƺ" [label="DiabetesPedigreeFunction
+B(p) =0.918
+G(A) =0.184"]
+	"ŝ" -> "ƺ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ƻ" [label="BloodPressure
+B(p) =1.0
+G(A) =0.252"]
+	"ş" -> "ƻ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ƽ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"ş" -> "Ƽ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ƽ" [label="No
+B(p) =0
+G(A) =0.137"]
+	"Š" -> "ƽ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ƾ" [label="Pregnancies
+B(p) =0.811
+G(A) =0.137"]
+	"Š" -> "ƾ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ƿ" [label="No
+B(p) =0
+G(A) =0.137"]
+	"Š" -> "ƿ" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"ǀ" [label="BloodPressure
+B(p) =1.0
+G(A) =0.252"]
+	"Ţ" -> "ǀ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ǁ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"Ţ" -> "ǁ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"ǂ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"Ũ" -> "ǂ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ǃ" [label="DiabetesPedigreeFunction
+B(p) =1.0
+G(A) =0.252"]
+	"Ũ" -> "ǃ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ǆ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ź" -> "Ǆ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ǅ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ź" -> "ǅ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ǆ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ž" -> "ǆ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ǉ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ž" -> "Ǉ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"ǈ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ž" -> "ǈ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ǉ" [label="No
+B(p) =0
+G(A) =0.503"]
+	"Ƅ" -> "ǉ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ǌ" [label="No
+B(p) =0
+G(A) =0.503"]
+	"Ƅ" -> "Ǌ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ǋ" [label="Yes
+B(p) =0
+G(A) =0.503"]
+	"Ƅ" -> "ǋ" [label="0.0-17.43" fontcolor=darkblue fontsize=10]
+	"ǌ" [label="SkinThickness
+B(p) =0.811
+G(A) =0.143"]
+	"ƅ" -> "ǌ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"Ǎ" [label="No
+B(p) =0
+G(A) =0.143"]
+	"ƅ" -> "Ǎ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"ǎ" [label="No
+B(p) =0
+G(A) =0.143"]
+	"ƅ" -> "ǎ" [label="87.14-104.57" fontcolor=darkblue fontsize=10]
+	"Ǐ" [label="No
+B(p) =0
+G(A) =0.143"]
+	"ƅ" -> "Ǐ" [label="34.86-52.29" fontcolor=darkblue fontsize=10]
+	"ǐ" [label="Insulin
+B(p) =1.0
+G(A) =0.311"]
+	"Ƈ" -> "ǐ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ǒ" [label="No
+B(p) =0
+G(A) =0.311"]
+	"Ƈ" -> "Ǒ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ǒ" [label="No
+B(p) =0
+G(A) =0.311"]
+	"Ƈ" -> "ǒ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ǔ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ƈ" -> "Ǔ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"ǔ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ƈ" -> "ǔ" [label="42.43-56.57" fontcolor=darkblue fontsize=10]
+	"Ǖ" [label="No
+B(p) =0
+G(A) =0.47"]
+	"Ǝ" -> "Ǖ" [label="9.71-12.14" fontcolor=darkblue fontsize=10]
+	"ǖ" [label="No
+B(p) =0
+G(A) =0.47"]
+	"Ǝ" -> "ǖ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"Ǘ" [label="SkinThickness
+B(p) =0.918
+G(A) =0.47"]
+	"Ǝ" -> "Ǘ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ǘ" [label="No
+B(p) =0
+G(A) =0.47"]
+	"Ǝ" -> "ǘ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"Ǚ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.571"]
+	"Ə" -> "Ǚ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ǚ" [label="No
+B(p) =0
+G(A) =0.571"]
+	"Ə" -> "ǚ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ǜ" [label="Yes
+B(p) =0
+G(A) =0.571"]
+	"Ə" -> "Ǜ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ǜ" [label="SkinThickness
+B(p) =1.0
+G(A) =0.0"]
+	"ƒ" -> "ǜ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ǝ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ɠ" -> "ǝ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ǟ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ɠ" -> "Ǟ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ǟ" [label="Insulin
+B(p) =1.0
+G(A) =0.252"]
+	"Ɣ" -> "ǟ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ǡ" [label="Yes
+B(p) =0
+G(A) =0.252"]
+	"Ɣ" -> "Ǡ" [label="7.29-9.71" fontcolor=darkblue fontsize=10]
+	"ǡ" [label="Age
+B(p) =1.0
+G(A) =0.0"]
+	"Ɵ" -> "ǡ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ǣ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ơ" -> "Ǣ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ǣ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ơ" -> "ǣ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ǥ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ƣ" -> "Ǥ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ǥ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ƣ" -> "ǥ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ǧ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ƣ" -> "Ǧ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ǧ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ƣ" -> "ǧ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ǩ" [label="Age
+B(p) =1.0
+G(A) =0.0"]
+	"Ƨ" -> "Ǩ" [label="19.17-28.76" fontcolor=darkblue fontsize=10]
+	"ǩ" [label="DiabetesPedigreeFunction
+B(p) =1.0
+G(A) =0.0"]
+	"Ʃ" -> "ǩ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ǫ" [label="Insulin
+B(p) =1.0
+G(A) =0.0"]
+	"Ƭ" -> "Ǫ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ǫ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ƶ" -> "ǫ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ǭ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ƶ" -> "Ǭ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ǭ" [label="Insulin
+B(p) =0.918
+G(A) =0.123"]
+	"ƶ" -> "ǭ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ǯ" [label="No
+B(p) =0
+G(A) =0.123"]
+	"ƶ" -> "Ǯ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"ǯ" [label="No
+B(p) =0
+G(A) =0.123"]
+	"ƶ" -> "ǯ" [label="2.43-4.86" fontcolor=darkblue fontsize=10]
+	"ǰ" [label="Yes
+B(p) =0
+G(A) =0.123"]
+	"Ʒ" -> "ǰ" [label="4.86-7.29" fontcolor=darkblue fontsize=10]
+	"Ǳ" [label="Insulin
+B(p) =0.918
+G(A) =0.123"]
+	"Ʒ" -> "Ǳ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"ǲ" [label="Insulin
+B(p) =1.0
+G(A) =0.252"]
+	"ƺ" -> "ǲ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ǳ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"ƺ" -> "ǳ" [label="0.41-0.75" fontcolor=darkblue fontsize=10]
+	"Ǵ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ƻ" -> "Ǵ" [label="52.29-69.71" fontcolor=darkblue fontsize=10]
+	"ǵ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ƻ" -> "ǵ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ƕ" [label="Insulin
+B(p) =0.811
+G(A) =0.0"]
+	"ƾ" -> "Ƕ" [label="0.0-2.43" fontcolor=darkblue fontsize=10]
+	"Ƿ" [label="Insulin
+B(p) =1.0
+G(A) =0.0"]
+	"ǀ" -> "Ƿ" [label="69.71-87.14" fontcolor=darkblue fontsize=10]
+	"Ǹ" [label="Age
+B(p) =1.0
+G(A) =0.0"]
+	"ǃ" -> "Ǹ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"ǹ" [label="Insulin
+B(p) =0.918
+G(A) =0.123"]
+	"ǌ" -> "ǹ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"Ǻ" [label="No
+B(p) =0
+G(A) =0.123"]
+	"ǌ" -> "Ǻ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"ǻ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"ǐ" -> "ǻ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ǽ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"ǐ" -> "Ǽ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ǽ" [label="Insulin
+B(p) =1.0
+G(A) =0.252"]
+	"Ǘ" -> "ǽ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ǿ" [label="Yes
+B(p) =0
+G(A) =0.252"]
+	"Ǘ" -> "Ǿ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ǿ" [label="No
+B(p) =0
+G(A) =1.0"]
+	"Ǚ" -> "ǿ" [label="14.14-28.29" fontcolor=darkblue fontsize=10]
+	"Ȁ" [label="Yes
+B(p) =0
+G(A) =1.0"]
+	"Ǚ" -> "Ȁ" [label="28.29-42.43" fontcolor=darkblue fontsize=10]
+	"ȁ" [label="Insulin
+B(p) =1.0
+G(A) =0.0"]
+	"ǜ" -> "ȁ" [label="0.0-14.14" fontcolor=darkblue fontsize=10]
+	"Ȃ" [label="Age
+B(p) =1.0
+G(A) =0.0"]
+	"ǟ" -> "Ȃ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ȃ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"ǡ" -> "ȃ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"Ȅ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"Ǩ" -> "Ȅ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"ȅ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"ǩ" -> "ȅ" [label="0.08-0.41" fontcolor=darkblue fontsize=10]
+	"Ȇ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"Ǫ" -> "Ȇ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ȇ" [label="No
+B(p) =0.918
+G(A) =0.0"]
+	"ǭ" -> "ȇ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ȉ" [label="Yes
+B(p) =0.918
+G(A) =0.0"]
+	"Ǳ" -> "Ȉ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ȉ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"ǲ" -> "ȉ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ȋ" [label="No
+B(p) =0.811
+G(A) =0.0"]
+	"Ƕ" -> "Ȋ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ȋ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"Ƿ" -> "ȋ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ȍ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"Ǹ" -> "Ȍ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+	"ȍ" [label="No
+B(p) =1.0
+G(A) =0.252"]
+	"ǹ" -> "ȍ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ȏ" [label="No
+B(p) =0
+G(A) =0.252"]
+	"ǹ" -> "Ȏ" [label="120.86-241.71" fontcolor=darkblue fontsize=10]
+	"ȏ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"ǽ" -> "ȏ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"Ȑ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"ȁ" -> "Ȑ" [label="0.0-120.86" fontcolor=darkblue fontsize=10]
+	"ȑ" [label="No
+B(p) =1.0
+G(A) =0.0"]
+	"Ȃ" -> "ȑ" [label="21.0-29.57" fontcolor=darkblue fontsize=10]
+}

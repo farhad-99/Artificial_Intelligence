@@ -1,0 +1,38 @@
+// The Round Table
+digraph "diabetes decision tree" {
+	b [label="Glucose
+B(p) =0.931
+G(A) =0.0"]
+	a [label="Pregnancies
+B(p) =0.931
+G(A) =0"]
+	a -> b [label="0.0-17.0" fontcolor=darkblue fontsize=10]
+	c [label="BloodPressure
+B(p) =0.931
+G(A) =0.0"]
+	b -> c [label="0.0-199.0" fontcolor=darkblue fontsize=10]
+	d [label="SkinThickness
+B(p) =0.931
+G(A) =0.0"]
+	c -> d [label="0.0-122.0" fontcolor=darkblue fontsize=10]
+	e [label="Insulin
+B(p) =0.931
+G(A) =0.0"]
+	d -> e [label="0.0-99.0" fontcolor=darkblue fontsize=10]
+	f [label="BMI
+B(p) =0.931
+G(A) =0.0"]
+	e -> f [label="0.0-846.0" fontcolor=darkblue fontsize=10]
+	g [label="DiabetesPedigreeFunction
+B(p) =0.931
+G(A) =0.0"]
+	f -> g [label="0.0-67.1" fontcolor=darkblue fontsize=10]
+	h [label="Age
+B(p) =0.931
+G(A) =0.0"]
+	g -> h [label="0.08-2.42" fontcolor=darkblue fontsize=10]
+	i [label="No
+B(p) =0.931
+G(A) =0.0"]
+	h -> i [label="21.0-81.0" fontcolor=darkblue fontsize=10]
+}
